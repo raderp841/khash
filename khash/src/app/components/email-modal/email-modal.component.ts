@@ -12,11 +12,11 @@ export class EmailModalComponent implements OnInit {
 
   ngOnInit(): void {
   }
-    onCloseModal(event: MouseEvent) {
-        let classes = event.target.classList.value;
-        if (classes.includes('modal-text') || classes.includes('form-control')) {
+    onCloseModal(event) {
+        
+        if (event.includes('modal-text') || event.includes('form-control')) {
         }
-        else if(classes.includes('btn')){
+        else if(event.includes('btn')){
             setTimeout(() => this.navigateHome(), 500);
         }
         else {

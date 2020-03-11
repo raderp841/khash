@@ -33,5 +33,6 @@ export class ContentComponent implements OnInit {
         this.router.navigate(['./mail']);
     }
     onCallClick() {
+
     }
 }
