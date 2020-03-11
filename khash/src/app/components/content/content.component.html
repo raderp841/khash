@@ -29,6 +29,14 @@
     </div>
     <br />
     <br />
+  </div>
+  <div class="parallax-four align-items-center">
+    <br />
+    <br />
+    <h4 class="khash-white text-center">Responsiveness.</h4>
+  </div>
+  <br />
+  <div class="container">
     <div class="row align-items-center">
       <div class="col-xs-12 col-sm-12 col-md-3">
         <p class="khash-name text-center">
@@ -46,21 +54,23 @@
   <div class="parallax-one align-items-center">
     <br />
     <br />
-    <h4 class="khash-white text-center">Responsiveness. Knowledge. Technology.</h4>
+    <h4 class="khash-white text-center">Knowledge.</h4>
   </div>
   <br />
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h4 class="khash-name">some other sub div</h4>
+        <h4 class="khash-name">[Section Title TBD]</h4>
       </div>
     </div>
     <hr />
     <div class="row align-items-center">
-      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 embed-responsive embed-responsive-16by9">        
+      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H_vZGqKdtdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 offset-md-1">
+        <br />
         <p class="khash-name text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi tempus iaculis urna.</p>
       </div>
     </div>
@@ -71,13 +81,13 @@
   <div class="parallax-three align-items-center">
     <br />
     <br />
-    <h4 class="khash-white text-center">Responsiveness. Knowledge. Technology.</h4>
+    <h4 class="khash-white text-center">Technology.</h4>
   </div>
   <br />
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h4 class="khash-name">some other sub div</h4>
+        <h4 class="khash-name">[Section Title TBD]</h4>
       </div>
     </div>
     <hr />
@@ -113,7 +123,7 @@
         <h5 class="khash-name">Give me a call</h5>
       </div>
       <div class="col-6 text-center">
-        <button class="btn btn-secondary btn-block">Call</button>
+        <button href=”tel:+1-877-538-5888″ class="btn btn-secondary btn-block" (click)="onCallClick()">Call</button>
       </div>
     </div>
 
@@ -124,20 +134,23 @@
         <h5 class="khash-name">Send me an email</h5>
       </div>
       <div class="col-6 text-center">
-        <button class="btn btn-secondary btn-block">Email</button>
+        <button class="btn btn-secondary btn-block" (click)="onEmailClick()">Email</button>
       </div>
     </div>
     <hr />
     <div class="col-12 text-center">
       <h5 class="khash-name">
         Find me online
-        <span>
-          <fa-icon (click)="onClickFacebook()" [icon]="['fab', 'facebook']"></fa-icon> |
-          <fa-icon (click)="onClickTwitter()" [icon]="['fab', 'twitter']"></fa-icon> |
-          <fa-icon (click)="onClickInstagram()" [icon]="['fab', 'instagram']"></fa-icon> |
-          <fa-icon (click)="onClickLinkedin()" [icon]="['fab', 'linkedin']"></fa-icon>
-        </span>
       </h5>
+    </div>
+    <div col-12>
+      <h4 class="khash-name text-center">
+        <fa-icon (click)="onClickFacebook()" [icon]="['fab', 'facebook']"></fa-icon> |
+        <fa-icon (click)="onClickTwitter()" [icon]="['fab', 'twitter']"></fa-icon> |
+        <fa-icon (click)="onClickInstagram()" [icon]="['fab', 'instagram']"></fa-icon> |
+        <fa-icon (click)="onClickLinkedin()" [icon]="['fab', 'linkedin']"></fa-icon>
+      </h4>
+
     </div>
     <hr />
   </div>

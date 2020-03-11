@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContentComponent } from './components/content/content.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faInstagram, faFacebook, faTwitter,faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { EmailModalComponent } from './components/email-modal/email-modal.component';
 @NgModule({
     declarations: [
         AppComponent,
@@ -16,6 +17,7 @@ import { faInstagram, faFacebook, faTwitter,faLinkedin} from '@fortawesome/free-
         HeaderComponent,
         FooterComponent,
         ContentComponent,
+        EmailModalComponent,
     ],
     imports: [
         BrowserModule,

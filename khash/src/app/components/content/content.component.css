@@ -86,6 +86,32 @@
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .parallax-four {
+    /* The image used */
+    background-image: url(../../../assets/banner4.png);
+    /* Set a specific height */
+    height: 150px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-four {
+    background-image: url(../../../assets/banner4.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(90%);
+  }
+}
+
+
 
   .khash-head {
     border-radius: 100px;
@@ -101,6 +127,7 @@
     padding-bottom: 50%;
     position: relative;
     height: 0;
+    filter: grayscale(60%);
   }
 
     .map-responsive iframe {

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-content',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
-    constructor() { }
+    constructor(private router: Router) { }
 
     ngOnInit(): void {
     }
@@ -26,5 +27,11 @@ export class ContentComponent implements OnInit {
 
     onClickTwitter() {
         window.open('https://twitter.com/finance_wizard?lang=en');
+    }
+
+    onEmailClick() {
+        this.router.navigate(['./mail']);
+    }
+    onCallClick() {
     }
 }
