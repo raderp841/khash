@@ -3,14 +3,15 @@
   text-shadow: 1px 3px 2px rgba(0,0,0,0.2);
 }
 
-.khash-white{
+.khash-white {
   color: whitesmoke;
   text-shadow: 3px 5px 4px rgba(0,0,0,0.9);
 }
 
-.khash-background{
+.khash-background {
   background-color: dimgray;
 }
+
 @media only screen and (min-width: 600px) {
   .parallax-one {
     /* The image used */
@@ -113,27 +114,31 @@
 
 
 
-  .khash-head {
-    border-radius: 100px;
-  }
+.khash-head {
+  border-radius: 100px;
+}
 
-  .content-background {
-    background-color: lightgray;
+.content-background {
+  background-color: lightgray;
+  width: 100%;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+  filter: grayscale(60%);
+}
+
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
     width: 100%;
+    position: absolute;
   }
 
-  .map-responsive {
-    overflow: hidden;
-    padding-bottom: 50%;
-    position: relative;
-    height: 0;
-    filter: grayscale(60%);
+  fa-icon{
+    cursor: pointer;
   }
-
-    .map-responsive iframe {
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-    }
