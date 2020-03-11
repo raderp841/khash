@@ -11,41 +11,102 @@
 .khash-background{
   background-color: dimgray;
 }
-
-.parallax {
-  /* The image used */
-  background-image: url(../../../assets/independence2.png);
-
-  /* Set a specific height */
-  height: 100px;
-  width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-
-
-}
-
-.khash-head{
-  border-radius: 100px;
-}
-
-.content-background{
-  background-color:lightgray;
-  width: 100%;
-}
-
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 50%;
-  position: relative;
-  height: 0;
-}
-
-  .map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
+@media only screen and (min-width: 600px) {
+  .parallax-one {
+    /* The image used */
+    background-image: url(../../../assets/banner1.png);
+    /* Set a specific height */
+    height: 150px;
     width: 100%;
-    position: absolute;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-one {
+    background-image: url(../../../assets/banner1.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(90%);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .parallax-two {
+    /* The image used */
+    background-image: url(../../../assets/banner2.png);
+    /* Set a specific height */
+    height: 150px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-two {
+    background-image: url(../../../assets/banner2.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(90%);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .parallax-three {
+    /* The image used */
+    background-image: url(../../../assets/banner3.png);
+    /* Set a specific height */
+    height: 150px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-three {
+    background-image: url(../../../assets/banner3.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(90%);
+  }
+}
+
+
+  .khash-head {
+    border-radius: 100px;
+  }
+
+  .content-background {
+    background-color: lightgray;
+    width: 100%;
+  }
+
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+  }
+
+    .map-responsive iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
