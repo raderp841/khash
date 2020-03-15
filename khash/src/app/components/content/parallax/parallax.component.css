@@ -1,0 +1,104 @@
+.khash-white {
+  color: whitesmoke;
+  text-shadow: 3px 5px 4px rgba(0,0,0,0.9);
+}
+
+@media only screen and (min-width: 600px) {
+  .parallax-one {
+    /* The image used */
+    background-image: url(../../../../assets/banner1.png);
+    /* Set a specific height */
+    height: 150px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-one {
+    background-image: url(../../../../assets/banner1.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(90%);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .parallax-two {
+    /* The image used */
+    background-image: url(../../../../assets/banner2.png);
+    /* Set a specific height */
+    height: 150px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-two {
+    background-image: url(../../../../assets/banner2.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(90%);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .parallax-three {
+    /* The image used */
+    background-image: url(../../../../assets/banner3.png);
+    /* Set a specific height */
+    height: 150px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-three {
+    background-image: url(../../../../assets/banner3.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(90%);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .parallax-four {
+    /* The image used */
+    background-image: url(../../../../assets/banner4.png);
+    /* Set a specific height */
+    height: 150px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-four {
+    background-image: url(../../../../assets/banner4.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(90%);
+  }
+}

@@ -1,0 +1,35 @@
+<div class="row align-items-center">
+  <div class="col-12 col-sm-6 text-center">
+    <h5 class="khash-name">Give me a call</h5>
+  </div>
+  <div class="col-12 col-sm-6 text-center">
+    <a href="tel:+1-216-780-1103"><button class="btn btn-secondary btn-block" (click)="onCallClick()">(216)-780-1103</button></a>
+  </div>
+</div>
+
+
+<hr />
+<div class="row align-items-center">
+  <div class="col-12 col-sm-6 text-center">
+    <h5 class="khash-name">Send me an email</h5>
+  </div>
+  <div class="col-12 col-sm-6 text-center">
+    <button class="btn btn-secondary btn-block" (click)="onEmailClick()">ksaghafi@libertyhm.com</button>
+  </div>
+</div>
+<hr />
+<div class="col-12 text-center">
+  <h5 class="khash-name">
+    Find me online
+  </h5>
+</div>
+<div col-12>
+  <h4 class="khash-name text-center">
+    <fa-icon (click)="onClickFacebook()" [icon]="['fab', 'facebook']"></fa-icon> |
+    <fa-icon (click)="onClickTwitter()" [icon]="['fab', 'twitter']"></fa-icon> |
+    <fa-icon (click)="onClickInstagram()" [icon]="['fab', 'instagram']"></fa-icon> |
+    <fa-icon (click)="onClickLinkedin()" [icon]="['fab', 'linkedin']"></fa-icon>
+  </h4>
+
+</div>
+<hr />

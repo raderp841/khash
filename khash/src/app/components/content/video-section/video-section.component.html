@@ -1,0 +1,28 @@
+<div class="container">
+  <div *ngIf="!isLeftBool">
+    <div class="row align-items-center">
+      <div [ngClass]="{'offset-md-1': isLeftBool}" class="col-xs-12 col-sm-12 col-md-3">
+        <app-text textNumber ="{{textNumber}}"></app-text>
+      </div>
+      <div [ngClass]="{'offset-md-1': !isLeftBool}" class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 embed-responsive embed-responsive-16by9">
+        <app-video url="{{videoUrl}}"></app-video>
+      </div>
+    </div>
+  </div>
+
+
+  <div *ngIf="isLeftBool">
+    <div class="row align-items-center">
+      <div [ngClass]="{'offset-md-1': !isLeftBool}" class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 embed-responsive embed-responsive-16by9">
+        <app-video url="{{videoUrl}}"></app-video>
+      </div>
+      
+      <div [ngClass]="{'offset-md-1': isLeftBool}" class="col-xs-12 col-sm-12 col-md-3">
+        <app-text textNumber="{{textNumber}}"></app-text>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+</div>
